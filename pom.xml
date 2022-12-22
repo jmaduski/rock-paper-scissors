@@ -19,8 +19,14 @@
 	</dependencies>
 	
 	<properties>
-   		<docker.image.prefix>rps</docker.image.prefix>
+		<Property>
+                      <sonar.host.url>http://172.31.66.168:9000/</sonar.host.url>
+                      <sonar.login>admin</sonar.login>
+                      <sonar.password>admin</sonar.password>
+		      <docker.image.prefix>rps</docker.image.prefix>	
+                </Property>
 	</properties>
+	
 	<build>
 	    <plugins>
 		    
